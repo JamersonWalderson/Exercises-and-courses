@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Teste Javascript nivel 3</title>
+    <meta charset="utf-8"/>
+    <script>
+        function mudaLampada(tipo) {
+            if (tipo==1) {
+                arquivo="_imagens"
+            }
+            document.getElementById("luz").src="../_imagens/lampada-acesa.jpg";   
+        }
+
+        
+    </script>
+</head>
+<body>
+<!-- -->
+    <h1>Acenda a lâmpada</h1>
+    <img src="../_imagens/lampada-apagada.jpg" id="luz" onmousemove="mudaLampada()" onmouseout="mudaLampada()" onclick="mudaLampada()"/>
+    
+<!-- -->
+</body>
+</html>

@@ -1,0 +1,146 @@
+/*Global styles*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+    font: 85% arial, hevetica, sans-serif;
+    text-align: center;
+}
+a:link {color: #B52C07;}
+a:visited { color: #b93411;}
+a:focus {color: #000;}
+a:hover {color: #7d8206;}
+a:active { color:red;}
+h1, h2, h3, h4, h5, h6 { margin: 0 0 .5em; }
+
+
+h2 a { text-decoration: none; } /*Remove o sublinhado dos links H2*/
+
+h3 {
+	color: #7d8206;
+	font: 110% georgia, times, "times new roman", serif;
+	}
+
+/*End global style*/
+
+#container {
+    background: #fff;
+    margin: 1em auto; /*1em e uma unidade de medida que equivale a 16px*/
+    width: 650px;
+}
+
+#header {
+    background: url(banner_editado.png);
+    width: 10%;
+    height: 45px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+
+#skipmenu {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 645px;
+	text-align: right;
+	}
+
+#header h1 {
+	position: absolute;
+	left: -500em;
+}
+
+#mainnav {
+    background: #9FA41D;
+    color: #272900;
+    padding: 2px 0;
+    margin-bottom: 22px;
+}
+
+#mainnav ul {
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+	border-left: 1px solid #C4C769;
+	}
+
+/* Cria o efeito de menu do header */
+#mainnav li {
+	display: inline; /* Visutalização alinhada */
+	padding: 0 10px;
+	border-right: 1px solid #C4C769;
+	}
+
+#mainnav li a {
+	text-decoration: none;
+	color: #272900;
+	}
+
+#mainnav li a:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #272900;
+	}
+
+#contents {
+    float: left;
+    width: 440px;
+    margin: 0 0 10px 20px;
+    text-align: left; /* ALinhamento de texto */
+}
+
+#menu {  
+    float: right;
+    width: 165px;
+    margin: 0 0 1em;
+    padding-left: 15px;
+    border-left: 1px solid #C5C877;
+}
+
+#skipmenu a {
+	color: #555;
+	text-decoration: none;
+	}
+
+
+#skipmenu {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 645px;
+	text-align: right;
+	}
+
+#contents p { line-height: 165%; }
+.blogentry { border-bottom: 1px solid #C5C877; }
+
+.blogentry ul {
+	text-align: right;
+	margin: 1em 0;
+	padding: 0;
+	font-size: 95%;
+	}
+
+.blogentry li {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 7px;
+		}
+
+.imagefloat {
+	float: right;
+	padding: 2px;
+	border: 1px solid #9FA41D;
+	margin: 0 0 10px 10px;
+	}
+
+#footer {
+    clear: both; /*Limpa a tela*/
+	color: #272900;
+	text-align: right;
+	font-size: 90%;
+	background: #9FA41D;
+	padding: 5px;
+}
