@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body { background-color: #f5f5f5; margin: 0px; padding: 0px; font-family: 'Lato', sans-serif;}
+a { text-decoration: none;}
+ul { list-style: none;}
+.menu-topo { background-color: black; height: 80px; text-align: left;}
+.menu-topo a { color: white; margin: 5px;}
+.menu-topo a:hover {background-color: firebrick; padding: 20px;}
+.menu-topo ul { font-size: 20pt}
+.menu-topo ul li{ display: inline;}
+
+/* Resoluções */
+@media screen and (min-width: 480px) {
+    body {
+        background-color: blue;
+        .menu-topo { text-align: center;}
+    }
+    
+}
+@media screen and (max-width: 680px) {
+    body {
+        background-color: red;
+        .menu-topo { text-align: left;}
+        .menu-topo a { margin: 0px; padding: 0px; font-size: 20pt;}
+    }
+
+}
